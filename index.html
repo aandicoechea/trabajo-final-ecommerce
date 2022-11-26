@@ -1,118 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Splendid Games - Tienda de Juegos de Mesa</title>
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/2e5b7324cc.js" crossorigin="anonymous"></script>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!"><i class="fa-regular fa-gem"></i> Splendid Games</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Quiénes Somos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#preguntas">Preguntas Frecuentes</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./productos.html">Todos los productos</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="./prod-juegos de mesa.html">Juegos de mesa</a></li>
-                                <li><a class="dropdown-item" href="./prod-rompecabezas.html">Rompecabezas</a></li>
-                                <li><a class="dropdown-item" href="#!">Accesorios</a></li>
-                                <li><a class="dropdown-item" href="#!">Novedades</a></li>
-                                <li><a class="dropdown-item" href="#!">Ofertas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <!-- <a href="./caja.html" >
-                            <button class="btn btn-outline-dark" type="submit">
-                                <i class="bi-cart-fill me-1"></i>
-                                Carrito
-                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                            </button>
-                        </a> -->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center">
-                                <a class="btn btn-outline-dark mt-auto" href="./caja.html">
-                                    <i class="bi-cart-fill me-1"></i> Carrito <span class="badge bg-dark text-white ms-1 rounded-pill" id="carrito-cont">0</span>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Splendid Games - Tienda de Juegos de Mesa</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2e5b7324cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#!"
+          ><i class="fa-regular fa-gem"></i> Splendid Games</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#!"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Quiénes Somos</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#preguntas">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Tienda</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./prod-juegos de mesa.html"
+                    >Todos los productos</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./prod-juegos de mesa.html"
+                    >Juegos de mesa</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Rompecabezas</a>
+                </li>
+                <li><a class="dropdown-item" href="#!">Accesorios</a></li>
+                <li><a class="dropdown-item" href="#!">Novedades</a></li>
+                <li><a class="dropdown-item" href="#!">Ofertas</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a class="btn btn-outline-dark mt-auto" href="./caja.html">
+                  <i class="bi-cart-fill me-1"></i> Carrito
+                  <span
+                    class="badge bg-dark text-white ms-1 rounded-pill"
+                    id="carrito-cont"
+                    >0</span
+                  >
+                </a>
+              </div>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Juegos a tu medida</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Para disfrutar con amigos o en familia</p>
-                </div>
-            </div>
-        </header>
-        <!-- Blog -->
-        <section class="py-5" id="blog">
-            <div class="container px-4 px-lg-5 mt-5">
-                <h2 class="fs-1"><i class="fa-solid fa-newspaper"></i> Blog</h2>
-                <article class="my-5">
-                    <h4>El boom de los juegos de mesa en un mundo digital</h4>
-                    <p>“El mundo digital ha cambiado nuestro tiempo libre, pero los juegos de mesa no paran de crecer. ¿Por qué?” Joaquim Dorca, socio director de Devir y experto en juegos de mesa, nos habla en este artículo de los factores clave para entender el auge y el éxito de los juegos de mesa en un entorno cada vez más digitalizado.</p>
-                    <a href="https://www.interempresas.net/Juguetes/Articulos/385475-El-boom-de-los-juegos-de-mesa-en-un-mundo-digital.html" class="ver-mas" target="_blank">Ver más <i class="fa-solid fa-arrow-right"></i></a>
-                </article>
-                <article class="my-5">
-                    <h4>Los juegos de mesa, una herramienta educativa para los profesores</h4>
-                    <p>Jugamos por diversión y por puro placer, pero cuando jugamos también aprendemos y socializamos. En la semana de la Acción Mundial por la Educación muchos son los profesores y pedagogos que reflexionan sobre cómo el juego de mesa puede ser un apoyo educativo básico para reforzar determinados aprendizajes en el aula.</p>
-                    <a href="https://www.interempresas.net/Tecnologia-aulas/Articulos/348732-Los-juegos-de-mesa-una-herramienta-educativa-para-los-profesores.html" class="ver-mas" target="_blank">Ver más <i class="fa-solid fa-arrow-right"></i></a>
-                </article>
-            </div>
-        </section>
-        <!-- Preguntas Frecuentes -->
-        <section class="py-5" id="preguntas">
-            <div class="container px-4 px-lg-5 mt-5">
-                <h2 class="fs-1"><i class="fa-solid fa-circle-question"></i> Preguntas Frecuentes</h2>
-                <article class="my-5">
-                    <h4>¿Qué juegos de mesa venden?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quam id, nihil magnam delectus iusto enim praesentium natus odio maxime, libero optio porro error omnis molestiae. Quae corrupti ullam dolor.</p>
-                </article>
-                <article class="my-5">
-                    <h4>¿Que generan los juegos de mesa?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quam id, nihil magnam delectus iusto enim praesentium natus odio maxime, libero optio porro error omnis molestiae. Quae corrupti ullam dolor.</p>
-                </article>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div id="redes">
-                <h4 id="nuestras-redes">Nuestras redes</h4>
-                <ul id="iconos-redes">
-                    <li class="icono-red"><i class="fa-brands fa-facebook"></i></li>
-                    <li class="icono-red"><i class="fa-brands fa-tiktok"></i></li>
-                    <li class="icono-red"><i class="fa-brands fa-instagram"></i></li>
-                </ul>
-            </div>
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Splendid Games 2022</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Juegos a tu medida</h1>
+          <p class="lead fw-normal text-white-50 mb-0">
+            Para disfrutar con amigos o en familia
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Blog -->
+    <section class="py-5" id="blog">
+      <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="fs-1"><i class="fa-solid fa-newspaper"></i> Blog</h2>
+        <article class="my-5">
+          <h4>El boom de los juegos de mesa en un mundo digital</h4>
+          <p>
+            “El mundo digital ha cambiado nuestro tiempo libre, pero los juegos
+            de mesa no paran de crecer. ¿Por qué?” Joaquim Dorca, socio director
+            de Devir y experto en juegos de mesa, nos habla en este artículo de
+            los factores clave para entender el auge y el éxito de los juegos de
+            mesa en un entorno cada vez más digitalizado.
+          </p>
+          <a
+            href="https://www.interempresas.net/Juguetes/Articulos/385475-El-boom-de-los-juegos-de-mesa-en-un-mundo-digital.html"
+            class="ver-mas"
+            target="_blank"
+            rel="noopener"
+            >Ver más <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </article>
+        <article class="my-5">
+          <h4>
+            Los juegos de mesa, una herramienta educativa para los profesores
+          </h4>
+          <p>
+            Jugamos por diversión y por puro placer, pero cuando jugamos también
+            aprendemos y socializamos. En la semana de la Acción Mundial por la
+            Educación muchos son los profesores y pedagogos que reflexionan
+            sobre cómo el juego de mesa puede ser un apoyo educativo básico para
+            reforzar determinados aprendizajes en el aula.
+          </p>
+          <a
+            href="https://www.interempresas.net/Tecnologia-aulas/Articulos/348732-Los-juegos-de-mesa-una-herramienta-educativa-para-los-profesores.html"
+            class="ver-mas"
+            target="_blank"
+            rel="noopener"
+            >Ver más <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </article>
+      </div>
+    </section>
+    <!-- Preguntas Frecuentes -->
+    <section class="py-5" id="preguntas">
+      <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="fs-1">
+          <i class="fa-solid fa-circle-question"></i> Preguntas Frecuentes
+        </h2>
+        <article class="my-5">
+          <h4>¿En qué idioma están los juegos?</h4>
+          <p>
+            La gran mayoría de juegos que importamos están en español, porque
+            sabemos que eso es lo más cómodo para el consumidor. Solo traemos en
+            inglés juegos que no tienen una versión en español
+          </p>
+        </article>
+        <article class="my-5">
+          <h4>¿Cuántos juegos de mesa tienen a la venta?</h4>
+          <p>
+            Tenemos más de 1000 juegos de mesa y 250 rompecabezas en stock. Cada
+            año incorporamos más de 300 productos al catálogo. Nunca sentirás
+            que ya no quedan juegos nuevos por descubrir.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div id="redes">
+        <h4 id="nuestras-redes">Nuestras redes</h4>
+        <ul id="iconos-redes">
+          <li class="icono-red"><i class="fa-brands fa-facebook"></i></li>
+          <li class="icono-red"><i class="fa-brands fa-tiktok"></i></li>
+          <li class="icono-red"><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+      </div>
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Splendid Games 2022
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
